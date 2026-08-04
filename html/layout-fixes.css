@@ -1,0 +1,52 @@
+/* Unit Network is a vertical page. units.css historically made the page
+   itself a two-column grid, stretching every toolbar control to card height. */
+.unit-network{
+    display:block!important;
+    height:calc(100% - 78px)!important;
+    overflow-y:auto!important;
+    overflow-x:hidden;
+    padding:0 8px 24px 0;
+}
+.identity-head{
+    display:flex!important;
+    align-items:flex-end!important;
+    justify-content:space-between!important;
+    gap:24px;
+    width:100%;
+}
+.identity-head>div{min-width:0}
+.profile-source{max-width:420px;text-align:right;line-height:1.5}
+.profile-panel{
+    display:grid!important;
+    grid-template-columns:minmax(160px,1fr) minmax(130px,.75fr) minmax(170px,1fr) auto;
+    align-items:end!important;
+    width:100%;
+    box-sizing:border-box;
+}
+.profile-panel label{min-width:0}
+.profile-panel input,.profile-panel select{box-sizing:border-box;min-width:0}
+.profile-panel button{height:34px;white-space:nowrap;cursor:pointer}
+.network-tools{
+    display:flex!important;
+    align-items:center;
+    justify-content:space-between!important;
+    flex-wrap:wrap;
+    width:100%;
+}
+.filter-tabs{display:flex!important;flex-wrap:wrap;gap:5px}
+.filter-tabs button{min-height:30px!important}
+#unitSearch{margin-left:auto;box-sizing:border-box}
+.unit-cards{
+    display:grid!important;
+    grid-template-columns:repeat(auto-fit,minmax(360px,1fr))!important;
+    align-items:start;
+    width:100%;
+}
+.unit-card{min-width:0;box-sizing:border-box}
+
+@media(max-width:1100px){
+    .profile-panel{grid-template-columns:1fr 1fr}
+    .profile-panel button{width:100%}
+    #unitSearch{width:100%!important;margin-left:0}
+    .unit-cards{grid-template-columns:1fr!important}
+}
