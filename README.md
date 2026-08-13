@@ -3,7 +3,7 @@
 <p align="center">Multi-department live dispatch and responder tracking for <strong>QBox</strong> and <strong>QBCore</strong>.</p>
 
 <p align="center">
-  <a href="https://github.com/XyraL/cipher-dispatch/releases"><img src="https://img.shields.io/github/v/release/XyraL/cipher-dispatch?style=flat-square&color=70baff&label=release" alt="Latest release"></a>
+  <a href="https://github.com/XyraL/cipher-dispatch/releases"><img src="https://img.shields.io/github/v/release/XyraL/cipher-dispatch?style=flat-square&color=55e2ad&label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/framework-QBox%20%7C%20QBCore-55dcff?style=flat-square" alt="framework">
   <img src="https://img.shields.io/badge/price-free-30d158?style=flat-square" alt="price">
   <a href="https://discord.gg/XRURAw4TM2"><img src="https://img.shields.io/badge/support-discord-5865F2?style=flat-square" alt="support"></a>
@@ -162,3 +162,31 @@ This lets Fire apparatus remain visually distinct from EMS ambulances and Police
 ## Operational radio
 
 Every incident receives an operation ID and TAC channel. With `pma-voice` running, assigned responders can press **I** to join that channel. Automatic channel switching is disabled by default so Cipher Dispatch does not unexpectedly pull players away from their existing radio channel; enable it with `Config.Radio.autoJoinOperations`.
+
+## Documentation
+
+Full setup guide, requirements and troubleshooting:
+**[xyralscripts.dev/docs-cipher-dispatch](https://xyralscripts.dev/docs-cipher-dispatch)**
+
+## Support
+
+- **Found a bug?** [Open an issue](https://github.com/XyraL/cipher-dispatch/issues)
+- **Need setup help?** [Join the Discord](https://discord.gg/XRURAw4TM2) — check the setup guide first, it usually has the answer
+
+## The rest of the Cipher line
+
+All free, all source-available.
+
+| Script | What it is |
+|---|---|
+| **[Cipher](https://github.com/XyraL/cipher)** | modular criminal device for QBox and QBCore — gang ops, blackmarket and boosting in one encrypted tablet. |
+| **[Cipher MDT](https://github.com/XyraL/cipher-mdt)** | multi-department MDT for QBox — police, EMS and fire with live CAD, records, patient care and a live unit map. |
+| **[Cipher Admin](https://github.com/XyraL/cipher-admin)** | advanced admin suite for QBox and QBCore — player management, bans, reports, inventory tools and entity inspection. |
+| **[Cipher Drone](https://github.com/XyraL/cipher-drone)** | deployable police drone for QBox and QBCore — smooth flight, thermal, spotlight, tracker darts and real counterplay. |
+| **[Cipher Trucking](https://github.com/XyraL/cipher-trucking)** | civilian trucking job for QBox and QBCore — live route map, truck ownership, fuel and maintenance, and companies. |
+| **[Cipher MultiCharacter](https://github.com/XyraL/cipher-multicharacter)** | cinematic character selection for QBox and QBCore — identity dossiers, saved appearances, spawn cameras and configurable slots. |
+
+## License
+
+Free to use on any server you own or operate, including commercial ones.
+**Do not redistribute or resell** — see [LICENSE](LICENSE) for the full terms.
