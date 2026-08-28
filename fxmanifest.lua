@@ -4,7 +4,7 @@ game 'gta5'
 name 'cipher-dispatch'
 description 'Multi-department live dispatch and unit tracking for QBox/QBCore'
 author 'XyraL'
-version '0.1.0'
+version '1.0.0'
 
 lua54 'yes'
 
